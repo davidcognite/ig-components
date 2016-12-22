@@ -90,7 +90,7 @@ Follow the 3 steps below:
     Please refer to the following example file: [systemjs.config.js](demo/systemjs
     .config.js) .
 
-Alfresco Info Gov Records Management File Plan
+Record Management File Plan
 
 ## Basic usage
 

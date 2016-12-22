@@ -1,6 +1,6 @@
 {
   "name": "rm-file-plan",
-  "description": "Alfresco Info Gov Records Management File Plan",
+  "description": "Record Management File Plan",
   "version": "0.1.0",
   "author": "David Webster <david.webster@alfresco.com>",
   "scripts": {

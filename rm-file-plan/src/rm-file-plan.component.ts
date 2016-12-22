@@ -1,12 +1,9 @@
 
 import { Component } from '@angular/core';
-import {DocumentList} from 'ng2-alfresco-documentlist'
 
 @Component({
     selector: 'rm-file-plan',
-    templateUrl: './rm-file-plan.component.html',
-    styleUrls: ['./rm-file-plan.component.css']
+    styles: [`:host h1 { font-size:22px }`],
+    template: `<h1>RM File Plan Component</h1><alfresco-document-list></alfresco-document-list>`
 })
-export class RmFilePlanComponent extends DocumentList {
-
-}
+export class RmFilePlanComponent {}

@@ -1,6 +1,6 @@
 {
   "name": "rm-file-plan-demo",
-  "description": "Alfresco Info Gov Records Management File Plan - Demo",
+  "description": "Record Management File Plan - Demo",
   "version": "0.1.0",
   "author": "David Webster <david.webster@alfresco.com>",
   "main": "./dist/index.js",

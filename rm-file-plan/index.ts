@@ -1,6 +1,7 @@
 
 import { NgModule } from '@angular/core';
 import { CoreModule } from 'ng2-alfresco-core';
+import { DocumentListModule } from 'ng2-alfresco-documentlist';
 
 import { RmFilePlanComponent } from './src/rm-file-plan.component';
 
@@ -8,7 +9,8 @@ export * from './src/rm-file-plan.component';
 
 @NgModule({
     imports: [
-        CoreModule
+        CoreModule,
+        DocumentListModule
     ],
     declarations: [
         RmFilePlanComponent
@@ -16,7 +18,8 @@ export * from './src/rm-file-plan.component';
     providers: [
     ],
     exports: [
-        RmFilePlanComponent
+        RmFilePlanComponent,
+        DocumentListModule
     ]
 })
 export class RmFilePlanModule {}
